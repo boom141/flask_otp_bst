@@ -1,0 +1,42 @@
+
+*{
+  font-family: "Poppins",sans-serif;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.btn {
+  width: 28rem;
+  margin-top: 1rem;
+}
+
+.btn-link{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-link:hover{
+  color: white;
+}
+
+.alert-warning {
+  color: #fa0c0c;
+  background-color: #ffb1c1;
+  border-color: #ffb1c1;
+}
+
+.plm-logo{
+  height: 80px;
+  width: 80px;
+  margin-left: -2rem;
+}
+
+.img-fluid {
+  height: 37rem;
+}
